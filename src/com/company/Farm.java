@@ -34,7 +34,7 @@ public class Farm {
         return cows;
     }
 
-    public void setCows() {
+    private void setCows() {
         for (Animal animal : animals) {
             if (animal.getClass().equals(Cow.class)) {
                 this.cows++;
@@ -46,7 +46,7 @@ public class Farm {
         return horses;
     }
 
-    public void setHorses() {
+    private void setHorses() {
         for (Animal animal : animals) {
             if (animal.getClass().equals(Horse.class)) {
                 this.horses++;
@@ -58,7 +58,7 @@ public class Farm {
         return sheep;
     }
 
-    public void setSheep() {
+    private void setSheep() {
         for (Animal animal : animals) {
             if (animal.getClass().equals(Sheep.class)) {
                 this.sheep++;
